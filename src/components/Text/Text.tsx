@@ -7,7 +7,7 @@ export function Text({ size = "md", children, asChild }: TextProps) {
   return (
     <Tag
       className={clsx("text-gray-100 font-sans", {
-        "text-sm": size === "sm",
+        "text-xs": size === "sm",
         "text-md": size === "md",
         "text-lg": size === "lg",
       })}
