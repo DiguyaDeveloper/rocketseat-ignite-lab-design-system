@@ -9,7 +9,7 @@ import "./styles/global.css";
 
 export function App() {
   return (
-    <div className="w-screen h-screen bg-gray-900 flex flex-col justify-center text-gray-100">
+    <div className="w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100">
       <header className="flex flex-col items-center">
         <Logo />
 
@@ -48,6 +48,7 @@ export function App() {
             <TextInput.Input
               id="password"
               placeholder="*******"
+              type="password"
             ></TextInput.Input>
           </TextInput.Root>
         </label>
@@ -66,10 +67,12 @@ export function App() {
 
       <footer className="flex flex-col items-center gap-4 mt-8">
         <Text asChild size="sm">
-          <a href="text-gray-400 underline">Esqueceu sua senha?</a>
+          <a href="" className="text-gray-400 underline hover:text-gray-200">
+            Esqueceu sua senha?
+          </a>
         </Text>
         <Text asChild size="sm">
-          <a href="text-gray-400 underline">
+          <a href="" className="text-gray-400 underline hover:text-gray-200">
             Não possui conta? Crie uma agora!
           </a>
         </Text>
