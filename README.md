@@ -10,8 +10,8 @@
 
 ## ✨ Tecnologias
 
-- [Angular](https://angular.io/)
-- [ThreeJS](https://threejs.org/)
+- [React](https://react.dev/)
+- [Storybook](https://storybook.js.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## 📝 License
